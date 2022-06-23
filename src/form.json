@@ -1,0 +1,25 @@
+{
+  "question": "Huidige arbeidsuren",
+  "options": [
+    {
+      "label": "0 uur",
+      "value": 10,
+      "key": "0"
+    },
+    {
+      "label": "1 tot en met 29 uur",
+      "value": 10,
+      "key": "1"
+    },
+    {
+      "label": "30 uur of meer",
+      "value": 10,
+      "key": "2"
+    },
+    {
+      "label": "Variabele uren",
+      "value": 10,
+      "key": "3"
+    }
+  ]
+}

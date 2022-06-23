@@ -1,0 +1,283 @@
+.Calculator {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.Calculator .calculator-intro {
+  margin-bottom: 40px;
+}
+
+.Calculator .calculator-start-button {
+  display: flex;
+}
+
+.calculator-start-button input.btn {
+  width: 50%;
+}
+
+.SectionHeader {
+  color: var(--text-secondary-colour);
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.SectionHeader h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sectionheader-text-container {
+  border-left: 2px solid var(--divider-colour);
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Question {
+  border-top: 1px solid var(--divider-colour);
+  border-bottom: 1px solid var(--divider-colour);
+  box-sizing: border-box;
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
+
+.Question h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.Question fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.Question .marker::before {
+  content: "▼";
+  transform: scale(0.8);
+  margin-left: -1px;
+  margin-right: 10px;
+  color: var(--text-colour);
+  display: inline-block;
+  transition: transform 0.2s linear;
+}
+
+.Question.collapsed .marker::before {
+  transform: rotate(-90deg) scale(0.8);
+}
+
+.Question.collapsed .question-body {
+  display: none;
+}
+
+.Question .question-header {
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.Question .question-header:hover {
+  text-decoration: underline 1px;
+  text-underline-offset: 2px;
+}
+
+.Guidance {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.Guidance summary {
+  color: var(--accent-colour);
+  cursor: pointer;
+}
+
+.Guidance summary:hover {
+  color: var(--accent-colour);
+  text-decoration: underline 1px;
+  text-underline-offset: 2px;
+}
+
+.Guidance .guidance-details {
+  border-left: 2px solid var(--divider-colour);
+  padding-left: 10px;
+  margin-top: 10px;
+  color: var(--text-secondary-colour);
+}
+
+.QuestionOption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.QuestionOption input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  border: 2px solid var(--text-colour);
+  /* transition: 0.2s all linear; */
+  margin: 0;
+  margin-right: 10px;
+  display: grid;
+  place-content: center;
+  flex-shrink: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.QuestionOption input[type="radio"]::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transform: scale(0);
+  box-shadow: inset 20px 20px var(--accent-colour);
+}
+
+.QuestionOption input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+.QuestionOption label {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.QuestionOption label:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.ScoreImpactLabel {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: right;
+  min-width: 60px;
+  max-width: 60px;
+  color: var(--text-secondary-colour);
+}
+
+.NavButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.Result {
+  border-top: 1px solid var(--divider-colour);
+  border-bottom: 1px solid var(--divider-colour);
+  box-sizing: border-box;
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
+
+.Result h3 {
+  font-size: 20px;
+}
+
+.Result .marker::before {
+  content: "▼";
+  transform: scale(0.8);
+  margin-left: -1px;
+  margin-right: 10px;
+  color: var(--text-colour);
+  display: inline-block;
+  transition: transform 0.2s linear;
+}
+
+.Result.collapsed .marker::before {
+  transform: rotate(-90deg) scale(0.8);
+}
+
+.Result.collapsed .result-body {
+  display: none;
+}
+
+.Result .result-value {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-secondary-colour);
+}
+
+.Result .result-value.high {
+  color: var(--error-colour);
+}
+
+.Result .result-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.Result .result-header h3 {
+  flex: 1;
+}
+
+.Result .result-header h3:hover {
+  text-decoration: underline 1px;
+  text-underline-offset: 2px;
+}
+
+.Result .result-text-container {
+  border-left: 2px solid var(--divider-colour);
+  padding-left: 10px;
+  margin-bottom: 20px;
+  color: var(--text-secondary-colour);
+}
+
+.Result .select-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--divider-colour);
+  padding: 10px;
+  gap: 20px;
+}
+
+.Result .info-label {
+  font-size: 16px;
+}
+
+.Result .select-container input.btn {
+  flex: 0 0 190px;
+}
+
+@media screen and (max-width: 500px) {
+  .Result .select-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .Result .select-container input.btn {
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .Calculator .calculator-start-button {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .Calculator .calculator-start-button input.btn {
+    width: 100%;
+    flex: 0 0 auto;
+  }
+}
