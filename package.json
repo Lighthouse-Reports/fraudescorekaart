@@ -1,6 +1,6 @@
 {
   "name": "lighthouse-fraudscore",
-  "homepage": "https://github.io/lighthouse-reports/fraudescorekaart/",
+  "homepage": "https://github.io/lighthouse-reports/fraudescorekaart",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
