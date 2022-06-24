@@ -1,6 +1,6 @@
 {
   "name": "lighthouse-fraudscore",
-  "homepage": "https://lighthouse-reports.github.io/fraudescorekaart",
+  "homepage": "https://fraudescorekaart.lighthousereports.nl",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "echo 'fraudescorekaart.lighthousereports.nl' > ./build/CNAME && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
