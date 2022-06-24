@@ -31,7 +31,7 @@ export const App = () => {
       </div>
       <Outlet />
       <div className='footer'>
-        <img src={logo} alt='Lighthouse Reports logo' />
+        <img src={logo} href="https://lighthousereports.nl" alt='Lighthouse Reports logo' />
         <div>
           <p>
             Een project van{" "}
@@ -44,7 +44,7 @@ export const App = () => {
             </a>
             ,{" "}
             <a href='https://vpro.nl' target='_blank' rel='noreferrer'>
-              VPRO
+              Argos
             </a>{" "}
             en{" "}
             <a href='https://nrc.nl' target='_blank' rel='noreferrer'>
@@ -83,11 +83,11 @@ export const Home = () => {
         <Link to='/scorekaart'>
           <Button>Bereken je score</Button>
         </Link>
-        <a href='https://nrc.nl' target='_blank' rel='noreferrer'>
-          <Button secondary>Lees meer bij NRC</Button>
-        </a>
         <a href='https://vpro.nl' target='_blank' rel='noreferrer'>
           <Button secondary>Lees meer bij de VPRO</Button>
+        </a>
+        <a href='https://nrc.nl' target='_blank' rel='noreferrer'>
+          <Button secondary>Lees meer bij NRC</Button>
         </a>
       </div>
     </div>
