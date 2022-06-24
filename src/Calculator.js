@@ -109,7 +109,7 @@ export const Calculator = () => {
               Hieronder vind je een interactieve reconstructie van de
               fraudescorekaart. Deze reconstructie bevat dezelfde vragen,
               antwoorden en berekeningen als de fraudescorekaart die Lighthouse
-              Reports, VPRO en NRC hebben ontvangen.
+              Reports, Argos en NRC hebben ontvangen.
             </p>
             {/* TODO */}
             {/* <p>Example for high address fraud risk</p>
