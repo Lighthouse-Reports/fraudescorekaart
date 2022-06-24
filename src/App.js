@@ -43,7 +43,7 @@ export const App = () => {
               Lighthouse Reports
             </a>
             ,{" "}
-            <a href='https://vpro.nl' target='_blank' rel='noreferrer'>
+            <a href='https://www.vpro.nl/argos.html' target='_blank' rel='noreferrer'>
               Argos
             </a>{" "}
             en{" "}
@@ -83,8 +83,8 @@ export const Home = () => {
         <Link to='/scorekaart'>
           <Button>Bereken je score</Button>
         </Link>
-        <a href='https://vpro.nl' target='_blank' rel='noreferrer'>
-          <Button secondary>Lees meer bij de VPRO</Button>
+        <a href='https://www.vpro.nl/argos.html' target='_blank' rel='noreferrer'>
+          <Button secondary>Lees meer bij VPRO Argos</Button>
         </a>
         <a href='https://nrc.nl' target='_blank' rel='noreferrer'>
           <Button secondary>Lees meer bij NRC</Button>
