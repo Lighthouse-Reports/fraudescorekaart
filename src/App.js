@@ -43,11 +43,11 @@ export const App = () => {
               Lighthouse Reports
             </a>
             ,{" "}
-            <a href='https://www.vpro.nl/argos.html' target='_blank' rel='noreferrer'>
+            <a href='https://www.vpro.nl/argos/media/luister/argos-radio/onderwerpen/2022/bijstandsbingo.html#' target='_blank' rel='noreferrer'>
               Argos
             </a>{" "}
             en{" "}
-            <a href='https://nrc.nl' target='_blank' rel='noreferrer'>
+            <a href='https://www.nrc.nl/nieuws/2022/06/24/ondanks-waarschuwing-gingen-gemeenten-door-met-omstreden-fraudedetectiemethode-a4134635' target='_blank' rel='noreferrer'>
               NRC
             </a>
             .
