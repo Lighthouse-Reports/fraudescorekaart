@@ -83,7 +83,7 @@ export const Home = () => {
         <Link to='/scorekaart'>
           <Button>Bereken je score</Button>
         </Link>
-        <a href='https://www.vpro.nl/argos/media/luister/argos-radio/onderwerpen/2022/bijstandsbingo.html#' target='_blank' rel='noreferrer'>
+        <a href='https://www.vpro.nl/argos/media/luister/argos-radio/onderwerpen/2022/bijstandsfraudebingo.html' target='_blank' rel='noreferrer'>
           <Button secondary>Lees meer bij VPRO Argos</Button>
         </a>
         <a href='https://www.nrc.nl/nieuws/2022/06/24/ondanks-waarschuwing-gingen-gemeenten-door-met-omstreden-fraudedetectiemethode-a4134635' target='_blank' rel='noreferrer'>
